@@ -1,0 +1,25 @@
+{
+  "name": "file-renamer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "rename files from terminal ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "bin": {
+   "renamer": "./index.js"
+  },
+  "keywords": [
+    "file-rename",
+    "bulk-renamer",
+    "cli"
+  ],
+  "author": "realizer",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^12.2.0"
+  }
+}
